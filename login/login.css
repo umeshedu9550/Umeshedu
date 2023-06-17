@@ -1,0 +1,46 @@
+*{
+    margin:auto;
+    padding: auto;
+}
+
+body{
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: brown;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.links{
+    list-style-type: none;
+    display: flex;
+}
+ 
+.listitem{
+    margin-left: auto;
+}
+a{
+    text-decoration:none ;
+    color: azure;
+}
+.container{
+    height: 100px;
+    flex: 2;
+}
+
+span{
+    margin-right: 5px;
+}
+#loginform{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 15px;
+}
